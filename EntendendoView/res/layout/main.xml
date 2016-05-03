@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    android:id="@+id/txtView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Entendendo Views"/>
+	
+	<EditText 
+	    android:id="@+id/edtView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="Edit Text Exemplo"/>
+	
+	<Button 
+	    android:id="@+id/btnView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Botão"/>
+	
+	<CheckBox 
+	    android:id="@+id/chkView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Check the box!"/>
+	
+	<ToggleButton 
+	    android:id="@+id/tglView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textOn="Ligado"
+	    android:textOff="Desligado"/>
+	
+	<RadioGroup android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <RadioButton android:id="@+id/rbtn1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Primeira Opção"/>
+	    <RadioButton android:id="@+id/rbtn2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Segunda Opção"/>
+	</RadioGroup>
+    
+</LinearLayout>
